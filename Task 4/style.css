@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.container {
+    width: 300px;
+    text-align: center;
+}
+  
+label {
+    display: block;
+    margin-top: 10px;
+}
+  
+button {
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#username:invalid{
+    border: 2px solid red;
+}
+
+#username:valid{
+    border: 2px solid green;
+}
+
+#age:invalid{
+    border: 2px solid red;
+    
+}
+
+#age:valid{
+    border: 2px solid green;
+}
+
+
+
+
